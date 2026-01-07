@@ -11,7 +11,7 @@ import { Certificado } from "./pages/certificado/certificado";
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, CommonModule, BaseUi, CertificadoForms, Certificado],
+  imports: [Navbar, CommonModule, BaseUi, CertificadoForms, CertificadoForms],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
